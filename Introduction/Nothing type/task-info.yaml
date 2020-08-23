@@ -4,16 +4,16 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 74
-    length: 3
+  - offset: 31
+    length: 10
     placeholder_text: '   '
     initial_state:
       length: 3
       offset: 74
     initialized_from_dependency: false
     possible_answer: ': Nothing'
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
   text: |-
     import java.lang.IllegalArgumentException
 
@@ -55,5 +55,8 @@ files:
         fun testLargeNumber() = testAge(200)
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sun, 23 Aug 2020 08:30:12 UTC
 record: -1
