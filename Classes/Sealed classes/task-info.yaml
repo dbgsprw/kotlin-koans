@@ -4,18 +4,18 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 72
-    length: 6
+  - offset: 0
+    length: 240
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 72
     initialized_from_dependency: false
     possible_answer: expr.value
-    selected: false
-    status: Unchecked
-  - offset: 101
-    length: 6
+    selected: true
+    status: Solved
+  - offset: 0
+    length: 240
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -23,9 +23,9 @@ files:
     initialized_from_dependency: false
     possible_answer: eval(expr.left) + eval(expr.right)
     selected: false
-    status: Unchecked
-  - offset: 119
-    length: 14
+    status: Solved
+  - offset: 0
+    length: 240
     placeholder_text: interface Expr
     initial_state:
       length: 14
@@ -33,9 +33,9 @@ files:
     initialized_from_dependency: false
     possible_answer: sealed class Expr
     selected: false
-    status: Unchecked
-  - offset: 162
-    length: 4
+    status: Solved
+  - offset: 0
+    length: 240
     placeholder_text: Expr
     initial_state:
       length: 4
@@ -43,9 +43,9 @@ files:
     initialized_from_dependency: false
     possible_answer: Expr()
     selected: false
-    status: Unchecked
-  - offset: 212
-    length: 4
+    status: Solved
+  - offset: 0
+    length: 240
     placeholder_text: Expr
     initial_state:
       length: 4
@@ -53,7 +53,7 @@ files:
     initialized_from_dependency: false
     possible_answer: Expr()
     selected: false
-    status: Unchecked
+    status: Solved
   text: |-
     fun eval(expr: Expr): Int =
             when (expr) {
@@ -88,5 +88,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sun, 23 Aug 2020 08:51:46 UTC
 record: -1

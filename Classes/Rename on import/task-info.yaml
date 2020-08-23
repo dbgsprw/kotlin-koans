@@ -4,8 +4,8 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 0
-    length: 57
+  - offset: 74
+    length: 1
     placeholder_text: |-
       // import kotlin.random.Random
       // import java.util.Random
@@ -17,9 +17,9 @@ files:
       import kotlin.random.Random as KRandom
       import java.util.Random as JRandom
     selected: false
-    status: Unchecked
-  - offset: 144
-    length: 23
+    status: Solved
+  - offset: 160
+    length: 20
     placeholder_text: // KRandom.nextInt(2) +
     initial_state:
       length: 23
@@ -27,9 +27,9 @@ files:
     initialized_from_dependency: false
     possible_answer: KRandom.nextInt(2) +
     selected: false
-    status: Unchecked
-  - offset: 210
-    length: 25
+    status: Solved
+  - offset: 223
+    length: 22
     placeholder_text: // JRandom().nextInt(2) +
     initial_state:
       length: 25
@@ -37,7 +37,7 @@ files:
     initialized_from_dependency: false
     possible_answer: JRandom().nextInt(2) +
     selected: false
-    status: Unchecked
+    status: Solved
   text: |-
     // import kotlin.random.Random
     // import java.util.Random
@@ -66,5 +66,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sun, 23 Aug 2020 08:52:22 UTC
 record: -1

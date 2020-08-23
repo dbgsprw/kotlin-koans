@@ -5,7 +5,7 @@ files:
   visible: true
   placeholders:
   - offset: 30
-    length: 6
+    length: 23
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -13,17 +13,17 @@ files:
     initialized_from_dependency: false
     possible_answer: RationalNumber(this, 1)
     selected: false
-    status: Unchecked
-  - offset: 79
-    length: 6
+    status: Solved
+  - offset: 96
+    length: 29
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 79
     initialized_from_dependency: false
     possible_answer: RationalNumber(first, second)
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
   text: |
     fun Int.r(): RationalNumber = TODO()
 
@@ -49,5 +49,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sun, 23 Aug 2020 08:54:34 UTC
 record: -1
